@@ -7,7 +7,7 @@ header {
 }
 
 .hero {
-  width: 80%;
+  width: 60%;
   display: flex;
   margin: 8px auto;
 }
@@ -130,11 +130,16 @@ footer {
   header {
     max-width: 960px;
     display: flex;
-    justify-content: space-between;
     margin: 80px auto 96px;
   }
-  .hero {
-    gap: 32px;
+
+  .a-1 {
+    padding: 0 0 0 320px;
+  }
+
+  a {
+    margin: 0 16px;
+   
   }
 
   .about {
